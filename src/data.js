@@ -52,12 +52,12 @@ export const CVData = {
       icon: 'archive',
       items: [
         {
-          title: 'Software Developer',
+          title: 'Platform Architect',
           company: 'Intempt',
           description: 'I\'m working as a lead developer yeeeey!',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
-          datesBetween: '2020.08 - 2022.08',
+          datesBetween: '2022.08 - present',
           descriptionTags: ['Javascript', 'React']
         },
         {
@@ -68,14 +68,6 @@ export const CVData = {
           companyMeta: '',
           datesBetween: '2020.08 - 2022.08',
           descriptionTags: ['Javascript', 'React']
-        },
-        {
-          title: 'Intern',
-          company: 'Some Software Example INC',
-          description: 'I was warming up.',
-          companyWebSite: 'http://someexamplecompany.com',
-          companyMeta: 'SF USA',
-          datesBetween: '2012.06 - 2012.10'
         }
       ]
     },
