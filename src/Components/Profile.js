@@ -40,7 +40,7 @@ export default class Profile extends React.Component {
   render() {
     const { name, title, contacts, image } = this.props
     return (
-      <div className={mc(B.container, B.box, B.hero, B['is-primary'], B['is-paddingless'], B['is-marginless'])}>
+      <div className={mc(B.container, B.box, B.hero, Styles['background'], B['is-paddingless'], B['is-marginless'])}>
         <div className={B['hero-body']}>
           <div className={mc(B.columns)}>
             <div className={mc(B.column, B['is-full'])} >
