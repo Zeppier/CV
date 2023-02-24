@@ -1,3 +1,12 @@
+import {faCoffee, faDatabase, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
+
+
+const predefinedIcons = {
+  coffee: faCoffee,
+  database: faDatabase,
+  languages: faLaptopCode
+}
 
 export const CVData = {
   personalData: {
@@ -32,17 +41,18 @@ export const CVData = {
       icon: 'graduation',
       items: [
         {
-          title: 'Computer Science (Bachelor)',
-          authority: 'Odessa National Polytechnic University',
-          authorityWebSite: 'https://op.edu.ua/en',
-          rightSide: '2016 - 2020'
-        },
-        {
           title: 'Computer Science (Masters)',
           authority: 'Odessa National Polytechnic University',
           authorityWebSite: 'https://op.edu.ua/en',
           rightSide: '2020 - 2022'
-        }
+        },
+        {
+          title: 'Computer Science (Bachelor)',
+          authority: 'Odessa National Polytechnic University',
+          description: 'CIG R&D LAB Finalist with own project',
+          authorityWebSite: 'https://op.edu.ua/en',
+          rightSide: '2017 - 2020'
+        },
       ]
     },
     {
@@ -54,61 +64,22 @@ export const CVData = {
         {
           title: 'Platform Architect',
           company: 'Intempt',
-          description: 'I\'m working as a lead developer yeeeey!',
+          description: 'Working as a developer with architect ' +
+              'and team lead responsibilities. Created and ' +
+              'maintained multiple core projects in a platform.',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
           datesBetween: '2022.08 - present',
-          descriptionTags: ['Javascript', 'React']
+          descriptionTags: ['Java', 'Microservices', 'Architecture']
         },
         {
           title: 'Software Developer',
           company: 'Intempt',
-          description: 'I\'m working as a lead developer yeeeey!',
+          description: 'Grew up as a software developer from junior to platform architect.',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
           datesBetween: '2020.08 - 2022.08',
-          descriptionTags: ['Javascript', 'React']
-        }
-      ]
-    },
-    {
-      type: 'projects-list',
-      title: 'Projects',
-      description: 'Optional',
-      icon: 'tasks',
-      groups: [
-        {
-          sectionHeader: 'Company Name',
-          description: 'Optional',
-          items: [
-            {title: 'Project', projectUrl: 'optional', description: 'Optional'},
-            {title: 'Project', projectUrl: 'optional', description: 'Optional'},
-            {title: 'Project', projectUrl: 'optional', description: 'Optional'}
-          ]
-        }
-      ]
-    },
-    {
-      type: 'common-list',
-      title: 'Conferences & Certificates',
-      description: '',
-      icon: 'comments',
-      items: [
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityWebSite: 'https://www.someconf.somesome'
-        },
-        {
-          title: 'Some Conferences / 2019',
-          authority: 'SomeConf',
-          authorityMeta: 'Speaker',
-          authorityWebSite: 'https://www.someconf.somesome',
-          rightSide: 'test'
-        },
-        {
-          title: 'Some Conferences / 2012',
-          authorityMeta: 'Speaker'
+          descriptionTags: ['Java', 'Project Reactor']
         }
       ]
     },
@@ -119,25 +90,47 @@ export const CVData = {
       items: [
         {
           authority: 'English',
-          authorityMeta: 'Professional'
+          description: 'Upper-intermediate'
         },
         {
-          authority: 'Spanish',
-          authorityMeta: 'Beginner'
+          authority: 'Ukrainian',
+          description: 'Native'
+        },
+        {
+          authority: 'Russian',
+          description: 'Native'
         }
       ]
     },
     {
       type: 'tag-list',
-      title: 'Skills Proficiency',
+      title: 'Programming languages',
+      icon: predefinedIcons.languages,
+      items: ['Java 11', 'Scala 2.12']
+    },
+    {
+      type: 'tag-list',
+      title: 'Java Frameworks',
+      icon: predefinedIcons.coffee,
+      items: ['Spring Boot', 'Project Reactive', 'Spark', 'Apache Flink']
+    },
+    {
+      type: 'tag-list',
+      title: 'Tools',
       icon: 'rocket',
-      items: ['React', 'Javascript', 'CSS', 'SQL', 'SomeTech', 'CoolTech']
+      items: ['Kafka', 'Kafka Connect', 'Terraform', 'Debezium', 'Multi-cloud storage provider Noobaa', 'Maven', 'RSocket', 'Git']
+    },
+    {
+      type: 'tag-list',
+      title: 'Databases',
+      icon: predefinedIcons.database,
+      items: ['PostgreSQL', 'Cassandra', 'Clickhouse']
     },
     {
       type: 'tag-list',
       title: 'Hobbies & Interests',
       icon: 'cubes',
-      items: ['Photography', 'Poetry']
+      items: ['Piano', 'Computer Science']
     }
   ]
 }
