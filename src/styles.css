@@ -11,6 +11,13 @@
   max-width: 960px;
 }
 
+.image {
+  height: 220px;
+  width: 220px;
+  border-radius: 290486px;
+}
+
+
 .sectionIcon {
   font-size: 20px;
   margin-right: 0.75em;
@@ -25,7 +32,11 @@
 }
 
 .background {
-  background: #1972df;
+  background: #1b6bbe;
+}
+
+.text {
+  color: #eaf1f0;
 }
 
 .sectionIcon svg {

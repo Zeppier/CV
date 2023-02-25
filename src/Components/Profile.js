@@ -47,13 +47,13 @@ export default class Profile extends React.Component {
               <div className={B.level} >
                 <div className={B['level-left']}>
                   <div className={B['level-item']}>
-                    <figure className={mc(B.image, B['is-128x128'])}>
-                      <img className={B['is-rounded']} src={image} />
+                    <figure className={mc(Styles.image)}>
+                      <img className={Styles['image']} src={image} />
                     </figure>
                   </div>
                   <div className={B['has-text-centered']}>
-                    <h1 className={mc(B.title, B['is-size-4'])}>{name}</h1>
-                    <h3 className={mc(B.subtitle, B['is-size-6'])}>{title}</h3>
+                    <h1 className={mc(Styles.text, B['is-size-4'])}>{name}</h1>
+                    <h3 className={mc(Styles.text, B['is-size-6'])}>{title}</h3>
                   </div>
                 </div>
                 <div className={B['level-right']}>

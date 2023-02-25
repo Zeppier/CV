@@ -42,7 +42,7 @@ export default class TagsList extends React.Component {
         content={description}
         icon={icon}
       >
-        <PureTagList tags={items} tagClass={'is-primary'} />
+        <PureTagList tags={items} tagClass={'is-info'} />
       </Section>
     );
   }

@@ -1,5 +1,4 @@
-import {faCoffee, faDatabase, faLaptopCode} from "@fortawesome/free-solid-svg-icons";
-
+import {faCoffee, faDatabase, faLaptopCode} from '@fortawesome/free-solid-svg-icons';
 
 const predefinedIcons = {
   coffee: faCoffee,
@@ -51,13 +50,12 @@ export const CVData = {
           description: 'CIG R&D LAB Finalist with own project',
           authorityWebSite: 'https://op.edu.ua/en',
           rightSide: '2017 - 2020'
-        },
+        }
       ]
     },
     {
       type: 'experiences-list',
       title: 'Experiences',
-      description: 'Optional',
       icon: 'archive',
       items: [
         {
