@@ -15,7 +15,7 @@ export const CVData = {
       {type: 'email', value: 'bezruchenko.y.v@gmail.com'},
       {type: 'phone', value: '+48 889 038 259'},
       {type: 'location', value: 'Łódź'},
-      {type: 'website', value: 'example.com'},
+      {type: 'website', value: 'https://zeppier.github.io/CV/'},
       {type: 'linkedin', value: 'linkedin.com/in/yaroslav-bezruchenko'},
       {type: 'github', value: 'github.com/zeppier'}
     ]
@@ -24,13 +24,9 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'Novice team player software ' +
-        'engineer with a can-do attitude ' +
-        'and quick-learning skills. In two ' +
-        'years grew from zero to owning ' +
-        'the architecture of the start-up ' +
-        'and leading the team in parallel ' +
-        'with feature development.',
+      content: 'Novice team player software engineer with a can-do attitude and quick learning skills. Grew from zero to owning the architecture of the start-up and leading the team in parallel with feature development within two years. \n' +
+        '\n' +
+        'Created and owned multiple core microservices and concepts. Participated in planning, creating, and implementing different features from scratch. \n',
       icon: 'usertie'
     },
     {
@@ -61,21 +57,19 @@ export const CVData = {
         {
           title: 'Platform Architect',
           company: 'Intempt',
-          description: 'Working as a developer with architect ' +
-            'and team lead responsibilities. Created and ' +
-            'maintained multiple core projects in a platform.',
+          description: 'Working as a developer with architect and team lead responsibilities. Architected solutions for features and improved platform stability and load handling. Was able to double the processing speed under the load in one month by redoing multiple core components on my own..',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
-          datesBetween: '2022.08 - present',
+          datesBetween: '2022.06 - present',
           descriptionTags: ['Java', 'Microservices', 'Architecture']
         },
         {
           title: 'Software Developer',
           company: 'Intempt',
-          description: 'Grew up as a software developer from junior to platform architect.',
+          description: 'Owned multiple microservices and was responsible for the stability of a core project. Built multiple microservices and maintained them. Grew up as a software developer from junior to platform architect.',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
-          datesBetween: '2020.08 - 2022.08',
+          datesBetween: '2020.08 - 2022.06',
           descriptionTags: ['Java', 'Project Reactor']
         }
       ]
@@ -109,19 +103,25 @@ export const CVData = {
       type: 'tag-list',
       title: 'Java Frameworks',
       icon: predefinedIcons.coffee,
-      items: ['Spring Boot', 'Project Reactive', 'Spark', 'Apache Flink']
+      items: ['Spring Boot', 'Project Reactive', 'Spark', 'Apache Flink', 'Spring Webflux']
     },
     {
       type: 'tag-list',
       title: 'Tools',
       icon: 'rocket',
-      items: ['Kafka', 'Kafka Connect', 'Terraform', 'Debezium', 'Multi-cloud storage provider Noobaa', 'Maven', 'RSocket', 'Git']
+      items: ['Kafka', 'Terraform', 'Debezium', 'Multi-cloud storage provider Noobaa', 'Kafka Connect', 'Maven', 'RSocket', 'Git', 'Linux', 'GitHub Actions']
+    },
+    {
+      type: 'tag-list',
+      title: 'Other skills',
+      icon: 'rocket',
+      items: ['AWS S3', 'AWS MSK', 'AWS EKS', 'AWS CloudFront', 'AWS ECR', 'AWS IAM', 'Kubernetes', 'Docker', 'Microservice Architecture']
     },
     {
       type: 'tag-list',
       title: 'Databases',
       icon: predefinedIcons.database,
-      items: ['PostgreSQL', 'Cassandra', 'Clickhouse']
+      items: ['PostgreSQL', 'Cassandra', 'Clickhouse', 'SQLite']
     },
     {
       type: 'tag-list',
