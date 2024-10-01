@@ -121,7 +121,7 @@ export const CVData = {
       type: 'tag-list',
       title: 'Databases',
       icon: predefinedIcons.database,
-      items: ['PostgreSQL', 'Cassandra', 'Clickhouse', 'SQLite']
+      items: ['PostgreSQL', 'RocksDB', 'Clickhouse', 'SQLite']
     },
     {
       type: 'tag-list',
