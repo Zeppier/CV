@@ -26,7 +26,7 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'Novice team player software ' +
+      content: 'Team player software ' +
         'engineer with a can-do attitude ' +
         'and quick-learning skills. In two ' +
         'years grew from zero to owning ' +
