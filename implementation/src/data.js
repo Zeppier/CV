@@ -24,7 +24,7 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'Novice team player software engineer with a can-do attitude and quick learning skills. Grew from zero to owning the architecture of the start-up and leading the team in parallel with feature development within two years. \n' +
+      content: 'Team player software engineer with a can-do attitude and quick learning skills. Grew from zero to owning the architecture of the start-up and leading the team in parallel with feature development within two years. \n' +
         '\n' +
         'Created and owned multiple core microservices and concepts. Participated in planning, creating, and implementing different features from scratch. \n',
       icon: 'usertie'
