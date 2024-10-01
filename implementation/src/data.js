@@ -103,7 +103,7 @@ export const CVData = {
       type: 'tag-list',
       title: 'Java Frameworks',
       icon: predefinedIcons.coffee,
-      items: ['Spring Boot', 'Project Reactive', 'Spark', 'Apache Flink', 'Spring Webflux']
+      items: ['Spring Boot', 'Project Reactor', 'Spark', 'Apache Flink', 'Spring Webflux']
     },
     {
       type: 'tag-list',
