@@ -9,13 +9,12 @@ const predefinedIcons = {
 export const CVData = {
   personalData: {
     name: 'Yaroslav Bezruchenko',
-    title: 'Middle Java Developer',
+    title: 'Software Engineer - Platform Architect',
     image: 'https://i.ibb.co/XWRS078/22222.jpg',
     contacts: [
       {type: 'email', value: 'bezruchenko.y.v@gmail.com'},
       {type: 'phone', value: '+48 889 038 259'},
       {type: 'location', value: 'Łódź'},
-      {type: 'website', value: 'https://zeppier.github.io/CV/'},
       {type: 'linkedin', value: 'linkedin.com/in/yaroslav-bezruchenko'},
       {type: 'github', value: 'github.com/zeppier'}
     ]
@@ -24,9 +23,7 @@ export const CVData = {
     {
       type: 'text',
       title: 'Career Profile',
-      content: 'Team player software engineer with a can-do attitude and quick learning skills. Grew from zero to owning the architecture of the start-up and leading the team in parallel with feature development within two years. \n' +
-        '\n' +
-        'Created and owned multiple core microservices and concepts. Participated in planning, creating, and implementing different features from scratch. \n',
+      content: 'Experienced software engineer and platform architect with a proven track record of rapidly growing from junior to architecture-level ownership in under two years. I specialize in designing and scaling high-throughput distributed systems, building cloud-native infrastructure, and delivering real-time data pipelines in production. \n\nRecently focused on LLM-based applications — including custom multi-step agents, retrieval-augmented generation (RAG), and complex orchestration workflows. I thrive in fast-moving teams where engineering quality, system design, and product impact intersect.\n',
       icon: 'usertie'
     },
     {
@@ -57,16 +54,22 @@ export const CVData = {
         {
           title: 'Platform Architect',
           company: 'Intempt',
-          description: 'Working as a developer with architect and team lead responsibilities. Architected solutions for features and improved platform stability and load handling. Was able to double the processing speed under the load in one month by redoing multiple core components on my own..',
+          description: '* Redesigned core platform services, achieving 10x performance improvement under load.\n' +
+              '* Architected and implemented high-scale systems for customer data management and real-time event ingestion using Flink and Spark.\n' +
+              '* Explored applications of LLMs for internal research workflows, with proof-of-concept implementations using retrieval-augmented generation.\n' +
+              '* Created custom agents for building complex objects using chat with the customer. A custom agent can generate deep sequences of emails and SMS, including complex conditions for triggering and goals, reducing user input by 80%. \n' +
+              '* Re-created platform infrastructure using Terraform scripts, providing a robust instruction set to manage environments.\n' +
+              '* Revisited GitHub Actions flow to improve CI/CD.\n' +
+              '* Created a recommendation system from the ground up using a graph database with vector search capabilities.\n',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
           datesBetween: '2022.06 - present',
-          descriptionTags: ['Java', 'Microservices', 'Architecture']
+          descriptionTags: ['Java', 'Python', 'LLM', 'Microservices', 'Architecture']
         },
         {
-          title: 'Software Developer',
+          title: 'Software Engineer',
           company: 'Intempt',
-          description: 'Owned multiple microservices and was responsible for the stability of a core project. Built multiple microservices and maintained them. Grew up as a software developer from junior to platform architect.',
+          description: 'Owned multiple microservices and was responsible for the stability of a core project. Built multiple microservices and maintained them. Grew up as a software engineer from junior to platform architect.',
           companyWebSite: 'https://www.intempt.com/',
           companyMeta: '',
           datesBetween: '2020.08 - 2022.06',
@@ -97,23 +100,29 @@ export const CVData = {
       type: 'tag-list',
       title: 'Programming languages',
       icon: predefinedIcons.languages,
-      items: ['Java 11', 'Scala 2.12']
+      items: ['Java', 'Scala', 'Python']
     },
     {
       type: 'tag-list',
       title: 'Java Frameworks',
       icon: predefinedIcons.coffee,
-      items: ['Spring Boot', 'Project Reactor', 'Spark', 'Apache Flink', 'Spring Webflux']
+      items: ['Spring Boot', 'Project Reactor', 'Apache Spark', 'Apache Flink', 'Spring Webflux', 'Spring Webflux', 'RSocket']
+    },
+    {
+      type: 'tag-list',
+      title: 'LLM',
+      icon: predefinedIcons.database,
+      items: ['RAG', 'OpenAI API', 'AI Agents', 'vLLM', 'Langgraph', 'uvicorn', 'FastAPI']
     },
     {
       type: 'tag-list',
       title: 'Tools',
       icon: 'rocket',
-      items: ['Kafka', 'Terraform', 'Debezium', 'Multi-cloud storage provider Noobaa', 'Kafka Connect', 'Maven', 'RSocket', 'Git', 'Linux', 'GitHub Actions']
+      items: ['Kafka', 'Terraform', 'Debezium', 'Multi-cloud storage provider Noobaa', 'Kafka Connect', 'Maven', 'Git', 'Linux', 'GitHub Actions']
     },
     {
       type: 'tag-list',
-      title: 'Other skills',
+      title: 'Infrastructure',
       icon: 'rocket',
       items: ['AWS S3', 'AWS MSK', 'AWS EKS', 'AWS CloudFront', 'AWS ECR', 'AWS IAM', 'Kubernetes', 'Docker', 'Microservice Architecture']
     },
@@ -121,13 +130,7 @@ export const CVData = {
       type: 'tag-list',
       title: 'Databases',
       icon: predefinedIcons.database,
-      items: ['PostgreSQL', 'RocksDB', 'Clickhouse', 'SQLite']
-    },
-    {
-      type: 'tag-list',
-      title: 'Hobbies & Interests',
-      icon: 'cubes',
-      items: ['Piano', 'Chess']
+      items: ['PostgreSQL', 'RocksDB', 'Clickhouse', 'SQLite', 'Neo4j', 'Redis']
     }
   ]
 }
